@@ -1,10 +1,10 @@
-package web.service;
+package com.myboot01.web.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import web.dao.MemberDAO;
-import web.vo.MemberVO;
+import com.myboot01.web.dao.MemberDAO;
+import com.myboot01.web.vo.MemberVO;
 
 @Service
 public class MemberService {

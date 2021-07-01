@@ -1,4 +1,4 @@
-package web.vo;
+package com.myboot01.web.vo;
 
 public class MemberVO {
 	private String id,pw,name;

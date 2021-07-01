@@ -1,9 +1,9 @@
-package web.dao;
+package com.myboot01.web.dao;
 
 import org.apache.ibatis.annotations.Mapper;
 import org.springframework.stereotype.Repository;
 
-import web.vo.MemberVO;
+import com.myboot01.web.vo.MemberVO;
 
 @Mapper
 @Repository("memberDAO")
