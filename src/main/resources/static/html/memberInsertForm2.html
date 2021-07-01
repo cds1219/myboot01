@@ -18,8 +18,8 @@
 			$.post("../memberInsert", {
 				name, id, pw
 			}, function(data, status) {
-				console.log("Data: " + data + "\nStatus: " + status);
-				//window.close();
+				alert(data);
+				window.close();
 			});
 
 		});

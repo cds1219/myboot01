@@ -1,7 +1,17 @@
 package com.myboot01.web.vo;
 
 public class MemberVO {
-	private String id,pw,name;
+	private String id,pw,name,address;
+	private int age;
+
+	public MemberVO(String id, String pw, String name, String address, int age) {
+		super();
+		this.id = id;
+		this.pw = pw;
+		this.name = name;
+		this.address = address;
+		this.age = age;
+	}
 
 	public MemberVO(String id, String pw, String name) {
 		super();
@@ -39,8 +49,25 @@ public class MemberVO {
 		this.name = name;
 	}
 
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
+
 	@Override
 	public String toString() {
-		return "MemberVO [id=" + id + ", pw=" + pw + ", name=" + name + "]";
+		return "MemberVO [id=" + id + ", pw=" + pw + ", name=" + name + ", address=" + address + ", age=" + age + "]";
 	}
+
 }
